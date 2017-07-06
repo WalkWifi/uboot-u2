@@ -1319,7 +1319,7 @@ __attribute__((nomips16)) void board_init_r (gd_t *id, ulong dest_addr)
 	ulong e_end;
 #endif
 
-    int soft_restart = 0;
+	int soft_restart = 0;
 
 #if defined (RT2880_FPGA_BOARD) || defined (RT2880_ASIC_BOARD)
 	u32 value,kk;
@@ -1993,7 +1993,7 @@ __attribute__((nomips16)) void board_init_r (gd_t *id, ulong dest_addr)
                     timer1 = 20;
                 }
 				else if ((BootType < '0' || BootType > '5') && (BootType != '7') && (BootType != '8') && (BootType != '9'))
-					BootType = '3';
+					BootType = '4';
 				printf("\n\rYou choosed %c\n\n", BootType);
 				break;
 			}

@@ -90,15 +90,15 @@ extern unsigned int  CFG_BLOCKSIZE;
 
 #endif 
 
-#define SERIAL_CLOCK_DIVISOR 16
+#define SERIAL_CLOCK_DIVISOR    16
 
 #define CONFIG_BOOTDELAY	    1	/* autoboot after 5 seconds	*/  //weikk add 20160314
 
 #define CONFIG_BAUDRATE		    230400//57600
 
-#define CONFIG_SERVERIP 10.10.10.3
-#define CONFIG_IPADDR 10.10.10.123
-#define CONFIG_ETHADDR "00:AA:BB:CC:DD:10"
+#define CONFIG_SERVERIP         192.168.1.10
+#define CONFIG_IPADDR           192.168.1.12
+#define CONFIG_ETHADDR          "00:AA:BB:CC:DD:10"
 /* valid baudrates */
 #define CFG_BAUDRATE_TABLE	{ 9600, 19200, 38400, 57600, 115200, 230400}
 
